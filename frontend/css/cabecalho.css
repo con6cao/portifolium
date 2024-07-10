@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 0.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.23em;
+	color: #fff;
+	background-color: #a86b4c;
+}
+
+.cabecalho a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.cabecalho a:hover {
+    background-color: #877972;
+    color: black;
+    transform: translate(0, .22rem);
+	transition: .50s;
+
+}
+
+.cabecalho a.active {
+    background-color: #5e4437;
+    color: white;
+}
+
+.cabecalho .icon {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .cabecalho a:not(:first-child) {
+        display: none;
+    }
+
+    .cabecalho a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho.responsive {
+        position: relative;
+    }
+
+    .cabecalho.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .cabecalho.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

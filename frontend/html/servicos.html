@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portifolio - Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+                <a href="#quemsomos" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Quem Somos</a>
+                <a href="#serviços" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Serviços</a>
+                <a href="#contato" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contato</a>
+            </div>
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Header with full-height image -->
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-left w3-text-white" style="padding: 48px">
+            <span class="w3-jumbo w3-hide-small">Comece algo que importante</span><br />
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium">Comece algo que importante</span><br />
+            <span class="w3-large">Pare de perder tempo valioso.</span>
+            <p>
+                <a href="#about"
+                    class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Saiba
+                    mais
+                    e comece hoje</a>
+            </p>
+        </div>
+        <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding: 24px 48px">
+            <a href="mailto:caio_vinicius2246@hotmail.com?subject=&body="><i
+                    class="fa fa-envelope w3-hover-opacity"></i></a>
+            <a href="https://github.com/CVdaZN/"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <a href="tel:+5511994945084"><i class="fa fa-phone w3-hover-opacity"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5511994945084"><i
+                    class="fa fa-whatsapp w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/caiovinicius2246/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/_con6sao/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-container" style="padding: 128px 16px" id="about">
+        <h3 class="w3-center">Sobre Nós</h3>
+        <p class="w3-center w3-large">
+            Principais características da nossa empresa
+        </p>
+        <div class="w3-row-padding w3-center" style="margin-top: 64px">
+            <div class="w3-quarter">
+                <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+                <p class="w3-large">Responsabilidade</p>
+                <p>
+                    Cumprir prazos, assumir a responsabilidade por erros e garantir
+                    transparência nas ações, mantendo a integridade.
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Paixão</p>
+                <p>
+                    Trabalhar horas extras para aprimorar um projeto, demonstrando
+                    entusiasmo e comprometimento.
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Design</p>
+                <p>
+                    Criar soluções esteticamente agradáveis e funcionais, considerando a
+                    usabilidade e a experiência do usuário em cada aspecto.
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Suporte</p>
+                <p>
+                    Estar sempre disponível para ajudar os clientes, responder prontamente
+                    às dúvidas e resolver problemas de forma eficiente.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promo Section - "Nós temos a solução" -->
+    <div class="w3-container w3-light-grey" style="padding: 128px 16px">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <h3>Nós temos a solução.</h3>
+                <p>
+                    Tudo que seu negocio precisa para crescer exponenciamente.
+                </p>
+                <p>
+                    <a href="#serviços" class="w3-button w3-black"><i class="fa fa-th"> </i> Veja nossos trabalhos</a>
+                </p>
+            </div>
+            <div class="w3-col m6">
+                <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700"
+                    height="394" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="w3-container" style="padding: 128px 16px" id="quemsomos">
+        <h3 class="w3-center">Quem Somos</h3>
+        <p class="w3-center w3-large">Aqueles que dirigem empresa</p>
+        <div class="w3-row-padding w3-grayscale" style="margin-top: 64px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="/w3images/team2.jpg" alt="Caio" style="width: 100%" />
+                    <div class="w3-container">
+                        <h3>Caio Vinicius</h3>
+                        <p class="w3-opacity">CEO & Founder</p>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                            sodales pellentesque elementum.
+                        </p>
+                        <p>
+                            <button class="w3-button w3-light-grey w3-block">
+                                <i class="fa fa-envelope"></i> Contact
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Promo Section "Statistics" -->
+    <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+        <div class="w3-third">
+            <span class="w3-xxlarge">14+</span>
+            <br>Parceiros
+        </div>
+        <div class="w3-third">
+            <span class="w3-xxlarge">55+</span>
+            <br>Projetos Concluídos
+        </div>
+        <div class="w3-third">
+            <span class="w3-xxlarge">89+</span>
+            <br>Clientes Satisfeitos
+        </div>
+    </div>
+
+
+    <!-- Work Section -->
+    <div class="w3-container" style="padding:128px 16px" id="serviços">
+        <h3 class="w3-center">NOSSO TRABALHO</h3>
+        <p class="w3-center w3-large">O que fizemos pelas pessoas</p>
+
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Identidade Visual">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Web Application">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Design Pattern">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Consultoria Empresarial">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contato">
+    <h3 class="w3-center">Contato</h3>
+    <p class="w3-center w3-large">Entre em contato e saiba como inicializar sua empresa.</p>
+    <div style="margin-top:48px">
+        <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+                <button class="w3-button w3-black" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </p>
+        </form>
+        <!-- Image of location/map -->
+        <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+        <a href="mailto:caio_vinicius2246@hotmail.com?subject=&body="><i
+                class="fa fa-envelope w3-hover-opacity"></i></a>
+        <a href="https://github.com/CVdaZN/"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="tel:+5511994945084"><i class="fa fa-phone w3-hover-opacity"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5511994945084"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/caiovinicius2246/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/_con6sao/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    </div>
+    <div>
+        <a href="" class="text-decoration-none text-white"><br>
+            Copyright 2023
+        </a>
+        <a href="https://github.com/CVdaZN/portifolio" class="text-decoration-none text-white"><br>
+            Powered by - Caio Vinicius
+        </a>
+
+    </div>
+
+</footer>
+
+</html>
