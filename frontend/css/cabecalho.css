@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .cabecalho {
@@ -9,6 +9,7 @@ body {
 	padding-left: 5%;
 	padding-right: 5%;
 	font-size: 0.6rem;
+	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.23em;
 	color: #fff;
@@ -20,21 +21,23 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px;    
     text-decoration: none;
-    font-size: 17px;
+    font-weight: 700;
+	font-size: 1.2rem;
+	margin-bottom: .3rem;
+
 }
 
 .cabecalho a:hover {
     background-color: #877972;
     color: black;
-    transform: translate(0, .22rem);
+    transform: perspective(.22rem);
 	transition: .50s;
 
 }
 
 .cabecalho a.active {
-    background-color: #5e4437;
     color: white;
 }
 
