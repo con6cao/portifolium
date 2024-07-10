@@ -3,7 +3,7 @@
 }
 
 .--largura-grande {
-	width: 100%;
+	width: 80%;
 }
 
 .botao {
@@ -27,8 +27,8 @@
 	color: #fff;
 	text-align: center;
 	background-size: cover;
-	padding-top: 12.5rem;
-	padding-bottom: 12.5rem;
+	padding-top: 20.5rem;
+	padding-bottom: 20.5rem;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
@@ -57,34 +57,21 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 0.6rem;
-	justify-items: auto;
+	font-size: 0.9rem;
+	justify-items: center;
 
 }
 .chamada__titulo {
 	color: #e93d50;
-	font-weight: 700;
-	font-size: 1.2rem;
-	margin-bottom: .3rem;
+	font-weight: 500;
+	font-size: 1.4rem;
+	margin-bottom: 0.3rem;
 }
 
 .chamada__titulo--destaque {
 	color: #fff;
 }
 
-
-
-.corpos__lista li:hover {
-	transform: translate(0, .22rem);
-	background-color: rgba(66, 134, 244, 0.337);
-	transition: .120s;
-}
-
-.corpos-- .corpos- .corpos__lista img {
-	width: 2rem;
-	height: 2rem;
-	margin-bottom: 5px;
-}
 
 @media(min-width:768px) {
 	.corpos {
