@@ -27,7 +27,7 @@
 	color: #fff;
 	text-align: center;
 	background-size: cover;
-	padding: 12.5rem;
+	padding: 5.5rem;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
@@ -56,8 +56,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
+	font-size: 0.6rem;
+	justify-items: auto;
 
+}
 .chamada__titulo {
 	color: #e93d50;
 	font-weight: 700;
@@ -69,41 +71,7 @@
 	color: #fff;
 }
 
-.chamada p {
-	font-weight: 500;
-	line-height: 1.3;
-	margin: 1rem 0;
-}
 
-.chamada__corpos__matricula {
-	color: #fff;
-	background-color: #e93d50;
-}
-
-.corpos__lista {
-	font-size: .7rem;
-	font-weight: 600;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	display: grid;
-	grid-template-columns: 7rem 7rem;
-	grid-template-rows: repeat(5, 4.5rem);
-	grid-gap: .5rem;
-	text-align: center;
-}
-
-.corpos__lista li {
-	border-radius: 8px;
-	box-sizing: border-box;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-repeat: no-repeat;
-	background-size: 2rem 2rem;
-	background-position: top .6rem center;
-	padding-top: 2.5rem;
-	transition: .25s;
-}
 
 .corpos__lista li:hover {
 	transform: translate(0, .22rem);
