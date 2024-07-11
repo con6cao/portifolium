@@ -1,18 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Portifolium - Pagina Principal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,
-600,700,&display=block">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="./frontend/css/body.css">
     <link rel="stylesheet" href="./frontend/css/cabecalho.css">
     <link rel="stylesheet" href="./frontend/css/rodape.css">
@@ -28,9 +26,9 @@
 
         <div class="cabecalho" id="mycabecalho">
             <a href="./index.html" class="active"> Pagina Inicial </a>
-            <a href="#serviços"> Serviços </a>
-            <a href="#contato"> Contato </a>
-            <a href="#projetos"> Projetos </a>
+            <a href="#iserviços"> Serviços </a>
+            <a href="#icontato"> Contato </a>
+            <a href="#iprojetos"> Projetos </a>
             <a href="javascript:void(0);" class="icon" onclick="navbar()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -44,11 +42,12 @@
                 <p> </p>
             </article>
         </section>
-        <section class="corpos quemsomos" id="quemsomos">
+        <section class="corpos quemsomos" id="iquemsomos">
             <article class="corpos__chamada	--largura-grande">
                 <h1 class="chamada__titulo"> Um poucos <strong class="chamada__titulo--destaque">
                         Sobre Mim</strong> </h1>
-                <p class="">Sou Caio Vinicius Dev.Multimedia há 2 anos com experiência em desenvolvimento web, audiovisual e
+                <p class="">Sou Caio Vinicius Dev.Multimedia há 2 anos com experiência em desenvolvimento web,
+                    audiovisual e
                     design.
                     Atualmente estou no 1°Sem. de Sistema da Informação pela Univesp. Codifico e desenvolvo Web
                     Applications robustas com linguagens como Java, JavaScript e Typescript enquanto cria interfaces com
@@ -57,37 +56,35 @@
             </article>
         </section>
 
-        <section class="corpos serviços" id="serviços">
+        <section class="corpos serviços" id="iserviços">
             <article class="corpos__chamada --largura-grande">
                 <h1 class="chamada__titulo">Nossos <strong class="chamada__titulo--destaque">
                         Serviços </strong> </h1>
                 <p>Conheça os melhores serviços e veja como trasnforma a entrega de valor do seu corpo.</p>
             </article>
-            <article>
-                <nav>
-                    <div class="d-flex justify-content-center">
-                        <table class="table table-hover">
-                            <tbody id="quemsomos"></tbody>
-                        </table>
-                    </div>
-                </nav>
+            <article class="corpos__chamada	--largura-grande">
+                <div class="">
+                    <table class="table table-hover">
+                        <div id="servicos"></div>
+                    </table>
+
+                    </nav>
             </article>
         </section>
 
-        <section class="corpos projetos" id="projetos">
+        <section class="corpos projetos" id="iprojetos">
             <article class="corpos__chamada	--largura-grande">
                 <h1 class="chamada__titulo">Projetos em nos quais me <strong class="chamada__titulo--destaque">
                         orgulho</strong>de ter participados </h1>
                 <p>Veja relatos e corpos com quao guardo com muito carinho</p>
             </article>
             <article class="corpos__chamada	--largura-grande">
-                <nav>
-                    <div class="d-flex justify-content-center">
-                        <table class="table table-hover">
-                            <tbody id="projetos"></tbody>
-                        </table>
-                    </div>
-                </nav>
+                <div class="d-flex justify-content-center">
+                    <table class="table table-hover">
+                        <div id="projetos"></div>
+                    </table>
+
+                    </nav>
             </article>
         </section>
 
@@ -95,7 +92,7 @@
 
 
 
-        <section class="corpos contato" id="contato">
+        <section class="corpos contato" id="icontato">
             <article class="corpos__chamada	--largura-grande">
                 <h1 class="chamada__titulo"> Converse comigo, traga <strong class="chamada__titulo--destaque">
                         ideias, sugestoes e criticas</strong> e deixe fazer parte de seu projeto de vida </h1>
@@ -122,39 +119,60 @@
     <footer class="rodape">
         <section class="rodape__secao	rodape__secao--sobre">
             <img class="rodape__logo" src="" alt="Logo	Caio">
-            <p class="rodape__infos-empresa">
-                Caio Vinicius.
-                <br>
-                CNPJ 05.555.382/0001-33
-                <br>
-                Rua Vergueiro - São Paulo/SP
-                <br>
-                Telefone (11) 4118-3319
-            </p>
-
+            <a href="" class="text-decoration-none text-white"><br>
+                Copyright 2023
+            </a>
+            <a href="https://github.com/con6cao" class="text-decoration-none text-white"><br>
+                Powered by - Caio Vinicius
+            </a>
         </section>
         <section>
-            <ul class="rodape__lista-midias-sociais">
-                <li class="rodape__item-midias-sociais">
-                    <a href="https://www.facebook.com/">
-                        <img src="img/footer-icone-facebook.svg" alt="Facebook">
+            <div class="rodape__lista-midias-sociais">
+                <div class="rodape__item-midias-sociais">
+                    <a href="tel:+5511994945084" class="text-decoration-none text-white"><br>
+                        Telefone
                     </a>
-                </li>
-                <li class="rodape__item-midias-sociais">
-                    <a href="https://www.instagram.com//">
-                        <img src="img/footer-icone-instagram.svg" alt="Instagram">
+                    <a href="mailto:caio_vinicius2246@hotmail.com?subject=&body="
+                        class="text-decoration-none text-white"><br>
+                        Email
+                    </a><br>
+                    <a href="https://api.whatsapp.com/send?phone=5511994945084" class="text-decoration-none text-white">
+                        Whatsapp
                     </a>
-                </li>
-            </ul>
+
+                    <a href="https://github.com/CVdaZN" class="text-decoration-none text-white"><br>
+                        Git Hub
+                    </a>
+                    <a href="https://www.linkedin.com/in/caiovinicius2246/" class="text-decoration-none text-white"><br>
+                        Linkeid
+                    </a>
+                    <a href="https://www.instagram.com/_con6sao/" class="text-decoration-none text-white"><br>
+                        Instagram
+                    </a>
+                </div>
+            </div>
         </section>
         <section class="rodape__secao	rodape__secao--links">
-            <h2 class="rodape__titulo"> Caio Vinicius </h2>
-            <nav>
-                <ul>
-                    <li class="rodape_item-lista"><a href="#">99frelas</a></li>
-                    <li class="rodape_item-lista"><a href="#">UpWork</a></li>
-                </ul>
-            </nav>
+            <div class="rodape__lista-midias-sociais">
+                <div class="rodape__item-midias-sociais">
+                    <a href="/html/termos.html" class="text-decoration-none text-white"><br>
+                        Termos de Uso
+                    </a>
+                    <a href="SobreNos.html" class="text-decoration-none text-white"><br>
+                        Sobre Nós
+                    </a>
+                    <a href="/html/Servicos.html" class="text-decoration-none text-white"><br>
+                        Serviços
+                    </a>
+                    <a href="/html/contato.html" class="text-decoration-none text-white"><br>
+                        Contato
+                    </a>
+                    <a href="index.html" class="text-decoration-none text-white"><br>
+                        Pagina Principal
+                    </a>
+                </div>
+            </div>
+
         </section>
 
     </footer>
